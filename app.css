@@ -1,0 +1,70 @@
+body {
+  background-color: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+  overflow: auto;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: 0 0 0 0.25rem rgba(246, 242, 243, 0.5); /* Light pink outline for focus/active */
+  border-color: rgba(246, 242, 243, 0.5); /* Matching border color */
+}
+
+.navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.navbar-brand:hover {
+  color: #ea1c2c;
+  text-decoration: none;
+  cursor: default;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.nav-link:hover {
+  color: #ea1c2c;
+  text-decoration: none;
+  cursor: default;
+}
+
+h2 {
+  color: white;
+  font-size: 2.3rem;
+}
+
+h2 span {
+  color: #ea1c2c;
+}
+
+@media (max-width: 1100px) {
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.candy-machine p {
+  color: #b63843;
+}
+
+.sprinkle-content p {
+  color: #b63843;
+}
+
+.navbar-scrolled {
+  background-color: #f6cefc;
+  transition: 1s;
+}
