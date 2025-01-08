@@ -4,7 +4,7 @@ A delightful virtual museum showcasing a collection of the world's most iconic c
 
 ---
 
-## 📸 Screenshot
+
 ![Website Screenshot](imgs/screenshot.png)
 
 ---
